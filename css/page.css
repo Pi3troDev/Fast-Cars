@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+    color: #f2f2f2;
+    line-height: 1.4;
+}
+
+.navegador {
+    background: #111;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+
+.navegador h3 {
+    font-size: 1.5rem;
+    color:#00bfff;
+}
+
+.logo-texto img
+{
+    width: 90px;
+    height: 80px;
+    margin-right: 80rem;
+}
+
+.links-navegacao a {
+    color: #f2f2f2;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.links-navegacao a:hover {
+    color: #00bfff;
+}
+
+.bloco-sobre {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+    
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.texto-sobre {
+    flex: 1 1 500px;
+}
+
+.texto-sobre h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color:steelblue;
+}
+
+.texto-sobre p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.imagem-sobre {
+    flex: 1 1 500px;
+    text-align: center;
+}
+
+.imagem-sobre img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* PRODUTOS BMW */
+
+.bloco-produtos {
+    width: 100%;
+    background: linear-gradient(135deg, #4682B4, #5A9BD5);
+    border-radius: 16px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+    
+}
+
+.bloco-produtos > h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.produtos article {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produtos article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.produtos{
+    color:#111
+}
+
+/*PRODUTOS MERCEDES*/
+
+.bloco-mercedes {
+    width: 100%;
+    background: linear-gradient(135deg, #050607, #16181a);
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+
+}
+
+.bloco-mercedes > h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+
+.produto-mercedes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.produto-mercedes article {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produto-mercedes article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mercedes {
+    color:#111
+}
+
+/*LOGO BMW*/
+.titulo-bmw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.titulo-bmw img {
+    height: 40px;
+    width: auto;
+    display: inline-block;
+}
+
+/*LOGO MERCEDES*/
+.titulo-mercedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.titulo-mercedes img {
+    height: 40px;
+    width: auto;
+    display: inline-block;
+}
+
+/*BlOCO FINAL*/
+.bloco-final
+{
+    width: 100%;
+    color:#050607;
+    background-color: rgba(218, 218, 218, 0.548);
+    height: 680px ;
+    border-radius: 2%;
+
+}
+
+.final > h2
+{
+    font-family:'Segoe UI';
+    color: steelblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 145px;
+  text-align: center;
+}
+
+.icones {
+  display: contents; 
+  
+}
+
+
+.beneficios img,
+.beneficios h4 {
+  width: 70px;
+  display: inline-block;
+}
+
+
+.beneficios img:nth-of-type(1),
+.beneficios h4:nth-of-type(1) {
+  grid-column: 1;
+  grid-row: auto;
+}
+
+.beneficios img:nth-of-type(2),
+.beneficios h4:nth-of-type(2) {
+  grid-column: 2;
+  grid-row: auto;
+}
+
+.beneficios img:nth-of-type(3),
+.beneficios h4:nth-of-type(3) {
+  grid-column: 3;
+  grid-row: auto;
+}
+
+
+.beneficios {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px 60px;
+  justify-content: center;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.final input[type="button"] {
+  width: 100%;
+  max-width: 270px;
+  height: 60px;
+  border: none;
+  border-radius: 999px;
+  background-color: steelblue;
+  font-family:'Verdana', sans-serif;
+  font-size: 15px;
+  color: #f5f5f5;
+  margin: 1rem 0;
+  cursor: pointer;
+  margin-top: 5rem; 
+  margin-bottom: 1rem;
+}
+
+.rodape {
+  margin-top: 35px;
+  background-color: #111;
+  color: #f2f2f2;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
+
+.rodape-conteudo {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rodape-links {
+  margin-top: 10px;
+}
+
+.rodape-links a {
+  color: #00bfff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.rodape-links a:hover {
+  color: #1e90ff;
+}
+
